@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {  
+    margin:0px; padding:0px;  
+    background-color:#999;  
+}  
+
+a:link {
+	color: #09192A;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #09192A;
+}
+a:hover {
+	text-decoration: none;
+	color: #520223;
+}
+a:active {
+	text-decoration: none;
+	font-size: 70px;
+	color: #963963;
+}
+
+
+#main {  
+    background: #240212 url(images/background.png) repeat-x;
+}  
+
+#header{
+    padding-top:14px;
+	padding-bottom:14px;
+}
+
+
+
+#login{
+	position:absolute;
+	left: 500px;
+	top:10px;
+	width: 408px;
+	
+}
+
+.input_style{
+	border:0px;
+	background:url(images/username_input.png) no-repeat;
+	width:92px;
+	height:21px;
+	border:none;
+	padding: 2px 0 0 5px;
+}
+
+
+#logo {
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;  
+	width:116px;
+	height:40px;
+}
+
+#img_block{
+	padding-top:20px;
+	padding-right:100px;
+	float:left;
+}
+
+#register_text{
+    float:left;
+}
+
+#footer {
+    color:white;
+}
+
+#main.container{
+	background-image:url(images/main_background.png);
+	background-repeat:no-repeat;  
+}
+
+.container {  
+    width:750px;  
+    margin:0 auto;  
+	position:relative;  
+	min-height:500px;
+}  
+#main .container #header #login form p {
+	color: #CCC;
+	font-family: Ubuntu;
+	font-size: 12px;
+}
+#main .container #preview_content .register_text h1 {
+	font-family: ubuntu;
+	font-size: 60px;
+	color: #036;
+}
+
+#main .container #preview_content .register_text p {
+	font-family: Ubuntu;
+}
+#main .container #preview_content .register_text p {
+	color: #B71854;
+	margin-top: -30px;
+}
+p {
+	color: #5D1C36;
+}
